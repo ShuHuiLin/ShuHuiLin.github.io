@@ -2,9 +2,10 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,a
+ {
     text-align: justify;
-    font-family: arial;
+    font-family: arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體";
 }
 
 .container {
@@ -42,10 +43,42 @@ p {
     font-size: 48px;
 }
 
+.jumbotron i {
+    color: black;
+    font-size: 18px;
+}
+
 .jumbotron p {
     width: 820px;
     color: #c42385;
     font-size: 15px;
     line-height: 1.4em;
     margin-top: -10px;
+}
+
+.intro .row {
+    margin-top: 30px;
+}
+
+.thumbnail {
+    height: 460px;
+}
+
+.intro h4 {
+    color: #F9BB27
+}
+
+.under a {
+    color: #c42385;
+    font-size: 17px;
+    font-weight: bold;
+    font-weight: bold;
+    padding-top: -14px;
+    text-decoration: none;
+}
+.under a:hover{color: red;}
+
+.row .small {
+    float: left;
+    margin-right: 10px;
 }
