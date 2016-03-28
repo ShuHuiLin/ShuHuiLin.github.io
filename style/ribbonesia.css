@@ -33,7 +33,7 @@ p {
 
 .jumbotron .container {
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 100px;
 }
 
@@ -44,7 +44,8 @@ p {
 
 .jumbotron p {
     width: 820px;
-    color: gray;
+    color: #c42385;
     font-size: 15px;
     line-height: 1.4em;
+    margin-top: -10px;
 }
