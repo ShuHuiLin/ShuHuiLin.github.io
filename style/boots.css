@@ -156,15 +156,29 @@ h4 {
 
 .area2 .row {
     max-width: 100%;
+<<<<<<< HEAD
     margin: 0 50px;
     position: relative;
     border: 2px;
+=======
+    margin: 0 70px;
+    position: relative;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+>>>>>>> origin/master
 }
 
 [class^="col-"] {
     float: left;
+<<<<<<< HEAD
     margin: 10px 0px;
     margin-top: 25px;
+=======
+    margin: 15px auto;
+    border: 2px;
+    border-style: solid;
+>>>>>>> origin/master
 }
 
 .area2 .pic {
@@ -293,11 +307,10 @@ h3 {
     .col-sm-12 {
         width: 100%;
     }
-}
 
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
-}
+
