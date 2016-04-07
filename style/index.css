@@ -38,6 +38,7 @@
 .row {
     max-width: 70%;
     margin: 0 auto;
+    z-index: 98;
 }
 
 .row a {
@@ -45,6 +46,7 @@
     font-size: 40px;
     color: #ffb56c;
     text-decoration: none;
+    z-index: 99;
 }
 
 
