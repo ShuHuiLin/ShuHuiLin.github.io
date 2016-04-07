@@ -1,0 +1,244 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topnav {
+    position: relative;
+    margin: 0px;
+    max-width: 100%;
+    height: 50px;
+    background-color: #95bc5c;
+    padding: 14px;
+    z-index: 1;
+}
+
+.topnav ul {
+    max-width: 83%;
+    margin: 3px auto;
+    padding: 0;
+}
+
+.topnav li {
+    margin: 0 5px 10px 0;
+    padding: 0;
+    display: inline-block;
+    border: 0px solid blue;
+}
+
+.topnav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    line-height: 100%;
+    font-size: 18px;
+    font-family: times;
+}
+
+.topnav a:hover {
+    color: green;
+}
+
+.topnav .current a {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        position: relative;
+        min-height: 50px;
+    }
+    .topnav ul {
+        width: 100%;
+        margin: 10px auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .topnav li {
+        margin: 0 5px 10px 0;
+        display: none;
+        margin: 0;
+    }
+    .topnav .current {
+        display: block;
+    }
+    .topnav .fa {
+        color: green;
+    }
+    .topnav a {
+        color: green;
+        display: block;
+        padding: 5px 5px 5px 20px;
+        text-align: left;
+    }
+    .topnav ul:hover {
+        width: 150px;
+        background-color: white;
+    }
+    .topnav ul:hover li {
+        display: block;
+        margin: 5px;
+        border: 0.5px solid #7a9b4d;
+    }
+}
+
+.main {
+    border: px solid blue;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.big {
+    max-width: 70%;
+    border: px solid blue;
+    margin: 20px auto;
+}
+
+.big h1 {
+    color: #95bc5c;
+    font-size: 40px;
+    text-align: center;
+    line-height: 72px;
+    font-family: times;
+}
+
+.big h2 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 45px;
+    font-family: times;
+}
+
+.big h3 {
+    color: #95bc5c;
+    font-size: 30px;
+    text-align: center;
+    line-height: 28px;
+    font-family: arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體";
+}
+
+.title {
+    padding: 20px;
+}
+
+.title p {
+    font-size: 17px;
+    font-family: arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體";
+    line-height: 33px;
+    text-align: justify;
+}
+
+hr {
+    margin-top: 35px;
+    color: #e6e6e6;
+}
+
+.title h2,
+h3 {
+    padding-top: 8px;
+    font-size: 17px;
+    text-align: center;
+    font-family: arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體";
+}
+
+.row {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 20px 10px 50px 10px;
+    height: 330px;
+    border: px solid blue;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.row h3 {
+    width: 55px;
+    height: 32px;
+    margin: 15px auto;
+    background-color: #95bc5c;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.row p {
+    font-size: 14px;
+    font-family: arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體";
+    line-height: 20px;
+    text-align: justify;
+}
+
+.row i {
+    font-size: 10px;
+}
+
+h4 {
+    color: #95bc5c;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -80px;
+}
+
+
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

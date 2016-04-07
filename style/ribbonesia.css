@@ -2,8 +2,8 @@ h1,
 h2,
 h3,
 h4,
-p,a
- {
+p,
+a {
     text-align: justify;
     font-family: arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體";
 }
@@ -26,7 +26,7 @@ p,a
 
 .jumbotron {
     background-image: url(../images/santa-3.jpg);
-    width: 100%;
+    max-width: 100%;
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,11 +49,12 @@ p,a
 }
 
 .jumbotron p {
-    width: 820px;
+    max-width: 84%;
+    padding-right: 20px;
     color: #c42385;
     font-size: 15px;
-    line-height: 1.4em;
-    margin-top: -10px;
+    line-height: 1.6em;
+    margin-top: -5px auto 0 auto;
 }
 
 .intro .row {
@@ -76,7 +77,10 @@ p,a
     padding-top: -14px;
     text-decoration: none;
 }
-.under a:hover{color: red;}
+
+.under a:hover {
+    color: red;
+}
 
 .row .small {
     float: left;

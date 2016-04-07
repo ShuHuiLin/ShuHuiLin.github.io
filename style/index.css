@@ -1,0 +1,223 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: BauerBodni BT, Didot, times;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.gradientBox {
+    max-width: 70%;
+    height: 471px;
+    display: block;
+    background: linear-gradient(top right, #ff8bb6, #ffb56c);
+    background: -moz-linear-gradient(top right, #ff8bb6, #ffb56c);
+    background: -webkit-linear-gradient(top right, #ff8bb6, #ffb56c);
+    margin: 0 auto;
+}
+
+.title {
+    max-width: 50%;
+    margin: -180px auto 10px auto;
+    border: 0px solid red;
+}
+
+.date {
+    color: #ff8bb6;
+    text-align: center;
+    padding: 0 auto;
+    font-size: 50px;
+    border: 0px solid red;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+}
+
+.row {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.row a {
+    margin-top: -25px;
+    font-size: 40px;
+    color: #ffb56c;
+    text-decoration: none;
+}
+
+.row .pic {
+    float: left;
+    border: 1px solid red;
+}
+
+
+/*Homework-右至左文字切入動畫*/
+
+.row h4 {
+    color: #a69aa2;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    -moz-animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        padding-left: 100%;
+        width: 300%;
+    }
+    to {
+        padding-left: 0%;
+        width: 100%;
+    }
+}
+
+@-moz-keyframes slidein {
+    from {
+        padding-left: 100%;
+        width: 300%;
+    }
+    to {
+        padding-left: 0%;
+        width: 100%;
+    }
+}
+
+
+/*右至左文字切入動畫--END*/
+
+[class*="col-"] {
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    border: 0px solid red;
+}
+
+
+/*底圖動畫*/
+
+.fly {
+    max-width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.action-1 {
+    margin-top: -220px;
+    margin-left: -5px;
+}
+
+.action-2 {
+    margin-top: 140px;
+    margin-left: 40px;
+}
+
+.action-3 {
+    margin-top: -160px;
+    margin-left: 280px;
+}
+
+.action-4 {
+    margin-top: -110px;
+    margin-left: 100%;
+}
+
+.action-5 {
+    margin-top: 150px;
+    margin-left: 125%;
+}
+
+.action-6 {
+    position: absolute;
+    margin-top: -710px;
+    margin-left: 12%;
+}
+
+.action-7 {
+    position: absolute;
+    margin-top: -510px;
+    margin-left: 130%;
+}
+
+.action-8 {
+    position: absolute;
+    border: px solid blue;
+    margin-top: -800px;
+    margin-left: 130%;
+}
+
+.rotate {
+    animation: 16s rot linear infinite;
+    transform-origin: 78px 10px;
+}
+
+@keyframes rot {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*底圖動畫--END*/
+
+
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
